@@ -10,16 +10,13 @@ public class ContactServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Process the form data as needed
         String name = request.getParameter("name");
         String email = request.getParameter("email");
         String message = request.getParameter("message");
 
-        // Optionally log the data or handle it
         System.out.println("Received message from: " + name + " (" + email + ")");
         System.out.println("Message: " + message);
 
-        // Forward to the thank you page
         request.getRequestDispatcher("thankyou.jsp").forward(request, response);
     }
 }

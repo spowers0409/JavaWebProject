@@ -5,11 +5,11 @@
     <style>
         .navbar {
             overflow: hidden;
-            background-color: #4A4A68; /* Bluish gray color */
+            background-color: #4A4A68;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 10px; /* Optional padding for better spacing */
+            padding: 0 10px;
         }
 
         .navbar a {
@@ -36,11 +36,11 @@
 
         .navbar .right a {
             margin-left: auto;
-            padding: 0; /* Remove padding to fit the image */
+            padding: 0;
         }
 
         .navbar .right img {
-            height: 32px; /* Adjust height as needed */
+            height: 32px;
             width: auto;
         }
     </style>
