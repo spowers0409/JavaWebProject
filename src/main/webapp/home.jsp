@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Home Page</h1>
-    <h2>Welcome to our Java Home Page</h2>
-    <p>This is a page where will show you our Java Home!</p>
+    <h1>Welcome to our Java Home Page</h1>
+    <p>This is the page where you will learn about our Java home page!</p>
 </body>
 </html>

@@ -3,10 +3,13 @@
 <html>
 <head>
     <style>
-        /* Basic styling for the navigation bar */
         .navbar {
             overflow: hidden;
-            background-color: #333;
+            background-color: #4A4A68; /* Bluish gray color */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px; /* Optional padding for better spacing */
         }
 
         .navbar a {
@@ -22,13 +25,38 @@
             background-color: #ddd;
             color: black;
         }
+
+        .navbar .left {
+            display: flex;
+        }
+
+        .navbar .right {
+            display: flex;
+        }
+
+        .navbar .right a {
+            margin-left: auto;
+            padding: 0; /* Remove padding to fit the image */
+        }
+
+        .navbar .right img {
+            height: 32px; /* Adjust height as needed */
+            width: auto;
+        }
     </style>
 </head>
 <body>
     <div class="navbar">
-        <a href="home.jsp">Home</a>
-        <a href="about.jsp">About</a>
-        <a href="contact.jsp">Contact</a>
+        <div class="left">
+            <a href="home.jsp">Home</a>
+            <a href="about.jsp">About</a>
+            <a href="contact.jsp">Contact</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/spowers0409/JavaWebProject" target="_blank">
+                <img src="images/github-mark.png" alt="GitHub">
+            </a>
+        </div>
     </div>
 </body>
 </html>

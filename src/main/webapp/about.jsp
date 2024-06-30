@@ -4,11 +4,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>About Page</title>
+    <title>About Java</title>
 </head>
 <body>
-    <h1>About Page</h1>
-    <h2>About this Java page!</h2>
-    <p>This is the page where you learm about Java!</p>
+    <h1>About Java</h1>
+    <h1>This page is dedicated to telling you about Java!</h1>
+    <p>If you want to know more about Java then this is the page for you!</p>
 </body>
 </html>

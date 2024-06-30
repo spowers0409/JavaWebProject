@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Contact Java</title>
+    <title>Contact Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
